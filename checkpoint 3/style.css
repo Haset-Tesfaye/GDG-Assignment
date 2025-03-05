@@ -1,0 +1,108 @@
+div {
+    border:2px solid;
+    height: 75px;
+    
+}
+h1 {
+    background-color: hsl(0,100%,75%);
+    width:100px;
+    height:100px;
+    display:block;
+    overflow:auto;
+      
+}
+span {
+    background-color:hsl(204,100%,75%);
+    width:100px;
+    height:100px;
+    display:block;
+     
+
+}
+.container {
+    background-color: hsl(0,0%,24%);
+    height: 100vh;
+}
+.box {
+    background-color: white;
+    border: 2px solid;
+    padding:25px;
+    height:auto;
+    width:50%;
+    float:left;
+    text-align: center;
+    
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(photo_2025-03-04_17-44-29.jpg);
+    background-size:cover;
+
+}
+#love p{
+    background-color: yellow;
+}
+a:link {
+    color:aqua;
+
+
+}
+a:hover {
+      color:blue;
+      font-size: 1.1em;
+}
+a:active {
+    color:black;
+    font-size:1.1em;
+
+}
+a:visited{
+    color:gray;
+}
+li:hover{
+    background-color: #ffff00;
+}
+li:not(hover){
+    background-color: grey;
+}
+li:nth-child(2){
+background-color: red;
+}
+#greeting p {
+    background-color: blue;
+    display:none;
+}
+#greeting:hover p{
+    display:block;
+}
+p::selection{
+    color: aqua;
+    background-color: black;
+}
+li::before{
+    content:"🎗";
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding:8px 15px;
+    display:inline-block;
+}
+.pagination a.active{
+    
+    background-color: green;
+    font:bold;
+    border-radius: 5px;
+
+}
+.paginatiion a:hover:not(.active)
+{
+    background-color: blue;
+    border-radius: 5px;
+
+}
